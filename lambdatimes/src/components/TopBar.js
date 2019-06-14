@@ -78,7 +78,7 @@ const TopBar = () => {
           <span>GEERAL</span><span>BROWNBAG</span><span>RANDOM</span><span>MUSIC</span><span>ANNOUNCEMENTS</span>
         </ContainerCenter>
         <ContainerRight>
-         <span>LOG IN</span>
+         <a href='./Login.js'>LOG IN</a>
         </ContainerRight>
       </Container>
     </TopBarDiv>
