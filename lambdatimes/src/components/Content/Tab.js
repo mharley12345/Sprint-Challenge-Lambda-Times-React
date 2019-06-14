@@ -1,11 +1,4 @@
 import React from 'react';
-<<<<<<< HEAD
-
- 
-
-=======
-import PropTypes from 'prop-types'
->>>>>>> 7f239638287052ebc293c4bdcda88adb5fc1ab7a
 
 const Tab = props => {
   /* Using your props, determine if the `tab` prop matches the `selectedTab` prop,
@@ -29,18 +22,8 @@ const Tab = props => {
 
 // Make sure you include PropTypes on your props.
 
-<<<<<<< HEAD
 
   
 
 
 export default Tab;
-=======
-Tab.propTypes = {
-  tabObject: PropTypes.shape({
-   tab: PropTypes.string,
-   selectedTab: PropTypes.string,
-  })
-  };
-export default Tab;
->>>>>>> 7f239638287052ebc293c4bdcda88adb5fc1ab7a
