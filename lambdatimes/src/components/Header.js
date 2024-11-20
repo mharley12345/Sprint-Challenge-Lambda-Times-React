@@ -39,9 +39,12 @@ margin-right: 25px;
 flex: 1;
 `
 const Header = () => {
+  const milliseconds = Date.now()
+  const dateObject = new Date(milliseconds)
+  const hdate = dateObject.toDateString()
   return (
     <HeaderDiv>
-      <DateSpan>June 14, 2019</DateSpan>
+      <DateSpan>{hdate}</DateSpan>
       <h1>Lambda Times</h1>
       <TempSpan>57°</TempSpan>
     </HeaderDiv>
